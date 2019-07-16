@@ -13,12 +13,20 @@ import random
     #elif d>6:
      #   break
 
-b=[]
-a=(random.randint(1,45))
-b.append(a)
-while True:
+#b=[]
+#d=0
+#while d<5:
+#    d=d+1
+#    a=(random.randint(1,45))
+#    b.append(a)
+#    if len(b)==6:
+#       print('로또%d='%(d),b)
 
-    for d in range(1,6):
-        if d<6:
-            break
-            print('로또%d='%(d),b)
+b=[]
+d=0
+while True:
+    d=d+1
+    a=(random.randint(1,45))
+    b.append(a)
+    if len(b)==6:
+        print('로또%d='%(d),b)
