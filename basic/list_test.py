@@ -41,7 +41,7 @@ ac.insert(0,7)      #첫번째 자리에 4를 삽입
 print(ac)
 
 ac.remove(9)        #9를 제거
-print(ac)
+print(ac)   
 
 ad=[1,2,3,2,2]          #리스트의 맨 마지막 요소를 돌려주고 그 요소를 삭제한다.
 ad.pop()
