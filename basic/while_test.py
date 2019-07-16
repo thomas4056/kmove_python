@@ -13,10 +13,18 @@ while True:
         listdata.append(data)
         print(listdata)
     elif menu ==2:
-        data1= input("수정하고싶은 데이터를 입력하세요\n")
-        data2= input("수정할 데이터를 입력하세요\n")
-        listdata.remove(data1)
-        listdata.append(data2)
+        #data1= input("수정하고싶은 데이터를 입력하세요\n")
+        #data2= input("수정할 데이터를 입력하세요\n")
+        #listdata[data1]=data2
+        #listdata.remove(data1)
+        #listdata.append(data2)
+        #data4=int(input("수정하고싶은 데이터를 입력하세요\n"))
+        #data5=int(input("수정할 데이터를 입력하세요\n"))
+        #data6=data4+1
+        #listdata[data6]=data5
+        num=int(input("입력하세요\n"))
+        data7=input("변경할 것을")
+        
         print(listdata)
     elif menu ==3:
         data3= input("삭제할 데이터를 입력하세요\n")
