@@ -33,4 +33,4 @@ print("python's {}favorite food is perl".format(b))
 print("python's {1}favorite{0} food is perl".format(b,20))
 
 
-print("i like {p} but i don't like {d}" format(p='3',d='20'))
+print("i like {p} but i don't like {d}".format(p='3',d='20'))
